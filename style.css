@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+/* .attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+ */
+* {
+    box-sizing: border-box;
+
+}
+
+
+body {
+
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* .container {
+
+
+} */
+
+.carte {
+
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    height: 600px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    padding: 18px 18px 30px 18px;
+    border-radius: 13px;
+   
+    
+
+}
+
+img {
+    width: 100%;
+    border-radius: 13px;
+    
+}
+
+hr.solid {
+    border: 1px solid hsla(215, 32%, 27%, 0.589);
+    
+    
+  }
+
+
+div.ethTime {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconEth {
+    width: 10px;
+    height: 15px;
+}
+
+.eth::before {
+    content: url(/images/icon-ethereum.svg);
+    padding-right: 8px;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5em;
+}
+
+.carte>p {
+
+    color: hsla(0, 0%, 100%, 0.432);
+    font-size: 18px;
+
+}
+
+.eth{
+
+    color: hsl(178, 100%, 50%);
+    
+}
+
+.counter {
+    color:hsla(0, 0%, 100%, 0.432)
+}
+
+.counter::before {
+    content: url(/images/icon-clock.svg);
+    padding-right: 8px;
+    vertical-align: middle;
+}
+
+.signature {
+    display: flex;
+    justify-content: start;
+    color:hsla(0, 0%, 100%, 0.432);
+    align-items: center;
+
+}
+.signature p {
+    padding-left: 10px;
+
+}
+
+.whiteName {
+    color: hsl(0, 0%, 100%);
+
+}
+
+.avatar {
+    width: 2.5em;
+    height: 2.5em;
+    border: 1px solid white;
+    border-radius: 50%;
+}
