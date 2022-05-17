@@ -18,19 +18,14 @@ body {
     font-family: 'Outfit', sans-serif;
     margin: 0;
     padding: 0;
-    max-width: 1440px;
-    height: 100vh;
+    min-height: 100vh ;
+    min-width: 1440px;
     background-color: hsl(217, 54%, 11%);
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
-
-/* .container {
-
-
-} */
 
 .carte {
 
@@ -40,7 +35,10 @@ body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
     padding: 18px 18px 30px 18px;
     border-radius: 13px;
-   
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     
 
 }
